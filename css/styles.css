@@ -43,8 +43,7 @@ body {
 .nav-bar-links {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 295px;
+  padding-left: 0px;
 }
 
 .nav-bar-link {
@@ -54,6 +53,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav-bar-link:first-child {
+  padding-left: 0px;
 }
 
 .nav-bar-link:hover,
@@ -162,6 +167,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--smaller-text-color);
   text-align: left;
+  width: 270px;
 }
 
 .container {
@@ -222,6 +228,7 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: #fff;
+  padding-bottom: 18px;
 }
 
 .team-member-name {
@@ -360,6 +367,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+  text-align: left;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .project-description {
@@ -367,4 +377,7 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--smaller-text-color);
+  text-align: left;
+  padding-right: 24px;
+  padding-left: 24px;
 }
