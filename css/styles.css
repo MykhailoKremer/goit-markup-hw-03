@@ -27,7 +27,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000;
-  margin: 25px 93px 25px 0px;
+  padding: 25px 93px 25px 0px;
 }
 
 .main-logo-first-half {
@@ -116,7 +116,8 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-color: var(--darkest-bgnd-color);
-  margin-top: 200px;
+  padding-top: 200px;
+  margin: 0px 0px 30px 0px;
 }
 
 .hero-title-button {
@@ -129,6 +130,7 @@ body {
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   color: #fff;
   cursor: pointer;
   width: 200px;
@@ -193,6 +195,10 @@ body {
 
 .our-team-section {
   background-color: var(--darker-bgnd-color);
+}
+
+.our-activity-section {
+  padding-bottom: 94px;
 }
 
 .our-activity-title,
@@ -291,6 +297,12 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  display: inline-block;
+  margin-top: 9px;
+}
+
+.address-links-list:first-child {
+  margin-top: 20px;
 }
 
 .address-link:focus,
@@ -323,7 +335,6 @@ body {
   letter-spacing: 0.03em;
   border: solid #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
   cursor: pointer;
   margin: 0px 8px 0px 8px;
   padding: 6px 22px;
@@ -349,6 +360,7 @@ body {
 
 .projects-list-item {
   margin-top: 30px;
+  width: 370px;
 }
 
 .projects-list-link {
@@ -359,6 +371,7 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  width: 370px;
 }
 
 .project-title {
@@ -368,6 +381,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-text-color);
   text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding-right: 24px;
   padding-left: 24px;
 }
@@ -380,4 +395,6 @@ body {
   text-align: left;
   padding-right: 24px;
   padding-left: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
